@@ -1,0 +1,5520 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+.softIndex-main {
+  margin-bottom: 60px;
+}
+.softIndex-main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.softIndex-main img {
+  width: 100%;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-main img {
+    height: 100%;
+    width: auto;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-main {
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 16px;
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-main {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .softIndex-main[data-main='switch'] {
+    background-color: #e60012;
+  }
+  .softIndex-main[data-main='wiiu'] {
+    background-color: #0096c8;
+  }
+  .softIndex-main[data-main='3ds'] {
+    background-color: #ce181e;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-main {
+    margin-bottom: 0;
+  }
+  .softIndex-main.softIndex-main--xmas {
+    background: center/contain url("../../../software/switch/img/soft-main-nav__bg_tab--xmas.png");
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-main {
+    width: 100vw;
+    padding: 0;
+    margin-bottom: 36px;
+  }
+  [data-bodytheme="3ds"] .softIndex-main {
+    margin-bottom: 0;
+  }
+  [data-bodytheme="switch"] .softIndex-main {
+    margin-bottom: 22px;
+  }
+  .softIndex-main.softIndex-main--xmas {
+    background: center/contain url("../../../software/switch/img/soft-main-nav__bg_sp--xmas.png");
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-main .nc3-c-anchorLinkMenu {
+    position: relative;
+    z-index: 1;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-main .nc3-c-anchorLinkMenu {
+    margin-right: calc(-40 / 1536 * 100vw);
+    border-left: calc(10 / 1536 * 100vw) solid #fff;
+    border-bottom: calc(10 / 1536 * 100vw) solid #fff;
+    margin-bottom: calc(40 / 1536 * 100vw);
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-main .nc3-c-anchorLinkMenu {
+    margin-bottom: 14px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-main--xmas.softIndex-main .nc3-c-anchorLinkMenu {
+    margin-bottom: 8px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav {
+    width: 280px;
+    height: calc(100% - 32px) !important;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 16px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav {
+    z-index: 10;
+  }
+}
+@media screen and (min-width: 980px), print {
+  [data-main='switch'] .softIndex-mainNav {
+    background-color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav {
+    background-color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav {
+    background-color: #ce181e;
+  }
+}
+.softIndex-main--xmas .softIndex-mainNav {
+  background: no-repeat bottom/contain url("../../../software/switch/img/soft-main-nav__foot--xmas.png"), center/contain url("../../../software/switch/img/soft-main-nav__bg--xmas.png");
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-main--xmas .softIndex-mainNav {
+    background: no-repeat center/100% 100% url("../../../software/switch/img/soft-main-nav__bg--xmas.png");
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-main--xmas .softIndex-mainNav {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__inner {
+    width: 280px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__inner {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .is-fixed .softIndex-mainNav__inner {
+    position: static;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__inner .nc3-js-searchBox {
+    display: none;
+  }
+}
+.softIndex-mainNav__image {
+  background-repeat: no-repeat;
+}
+[data-bodytheme="3ds"] .softIndex-mainNav__image {
+  background-image: url("../../../software/3ds/img/soft-main-nav__image.jpg");
+}
+[data-bodytheme="wiiu"] .softIndex-mainNav__image {
+  background-image: url("../../../software/wiiu/img/soft-main-nav__image.jpg");
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__image {
+    width: 100%;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+  }
+  [data-bodytheme="switch"] .softIndex-mainNav__image {
+    background-image: url("../../../software/switch/img/soft-main-nav__image--color.jpg");
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .softIndex-mainNav__image {
+    width: 30%;
+    padding-bottom: 15%;
+  }
+  [data-bodytheme="3ds"] .softIndex-mainNav__image {
+    width: 30%;
+    padding-bottom: 15%;
+  }
+  [data-bodytheme="wiiu"] .softIndex-mainNav__image {
+    width: 35%;
+    padding-bottom: 20%;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-mainNav__image {
+    width: 41.5954415954416%;
+    margin-left: -12px;
+    padding-bottom: 22.367%;
+  }
+  [data-bodytheme="3ds"] .softIndex-mainNav__image {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__image {
+    display: inline-block;
+    padding-bottom: 22.8%;
+    background-size: auto 100%;
+    background-position: center;
+  }
+  [data-bodytheme="switch"] .softIndex-mainNav__image {
+    background-image: url("../../../software/switch/img/soft-main-nav__image--color--sp.jpg");
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__head-pc {
+    margin-bottom: 22px;
+    padding-top: 2px;
+    width: 100%;
+    border-left: solid 8px #fff;
+    background-repeat: no-repeat;
+    background-position: 22px center;
+    box-sizing: border-box;
+  }
+  [data-main='switch'] .softIndex-mainNav__head-pc {
+    height: 80px;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__head-pc {
+    height: 50px;
+  }
+  [data-main='3ds'] .softIndex-mainNav__head-pc {
+    height: 80px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__head-pc {
+    display: none;
+  }
+}
+.softIndex-mainNav__head-tab {
+  font-weight: bold;
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__head-tab {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__head-tab {
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: auto 100%;
+    vertical-align: top;
+    padding-bottom: 8.666666666666668%;
+    margin-top: 3.6%;
+  }
+  [data-bodytheme="switch"] .softIndex-mainNav__head-tab {
+    width: 57.86666666666667%;
+  }
+  [data-bodytheme="wiiu"] .softIndex-mainNav__head-tab {
+    width: 34.66666666666667%;
+  }
+  [data-bodytheme="3ds"] .softIndex-mainNav__head-tab {
+    width: 52%;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-mainNav__head-tab {
+    display: none;
+  }
+}
+.softIndex-mainNav__head-sp {
+  font-weight: bold;
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__head-sp {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__head-sp {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-mainNav__head-sp {
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: auto 100%;
+    vertical-align: top;
+    padding-bottom: 8.666666666666668%;
+    margin-top: 6.666666666666667%;
+  }
+  [data-bodytheme="switch"] .softIndex-mainNav__head-sp {
+    width: 58.4045584045584%;
+  }
+  [data-bodytheme="wiiu"] .softIndex-mainNav__head-sp {
+    width: 34.66666666666667%;
+  }
+  [data-bodytheme="3ds"] .softIndex-mainNav__head-sp {
+    width: 52%;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-content {
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+    width: calc(100% - 284px);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-content {
+    padding: 0 calc(40 / 1536 * 100vw);
+    border-top: calc(6 / 1536 * 100vw) solid #fff;
+    border-left: calc(10 / 1536 * 100vw) solid #fff;
+    border-right: calc(10 / 1536 * 100vw) solid #fff;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-content {
+    background-image: -webkit-linear-gradient(left, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to right, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    background-size: 4px 1px;
+    padding: 0 12px 12px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-topWrap {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__inner {
+    top: 0;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__inner {
+    position: relative;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-sticky__footer {
+    position: absolute;
+    bottom: 0;
+  }
+}
+.softIndex-mainNav__info {
+  font-weight: bold;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__info {
+    padding: 0 24px 35px;
+    color: #fff;
+    letter-spacing: 0px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__info {
+    z-index: 99;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__info {
+    position: relative;
+    margin-bottom: 14px;
+    border-bottom: solid 4px #fff;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__texts {
+    margin-top: 78px;
+    border-top: solid 4px #fff;
+  }
+  .softIndex-mainNav__texts:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__text {
+    border-top: solid 1px #fff;
+    padding: 0 11px;
+    font-size: 15px;
+    box-sizing: border-box;
+  }
+  .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    padding: 18px 0;
+    cursor: pointer;
+  }
+  [data-main='switch'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #ce181e;
+  }
+  .softIndex-mainNav__text .softIndex-mainNav__smoothscroll span {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+  }
+  .softIndex-mainNav__text .softIndex-mainNav__smoothscroll:hover > span {
+    opacity: 0.7;
+  }
+  .softIndex-mainNav__text .largeSpace {
+    letter-spacing: 6px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__text {
+    padding: 2px 0 20px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-mainNav__text {
+    padding: 2px 0 18px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__text {
+    position: relative;
+    margin: 15px auto;
+    border-right: 1px solid #fff;
+    text-align: center;
+  }
+  .softIndex-mainNav__text:first-child {
+    border-left: 1px solid #fff;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 0px;
+    width: calc((100% - 0px * (2 - 1)) / 2);
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text:not(:nth-child(-n+2)) {
+    padding-top: 0px;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text:nth-child(2n) {
+    margin-right: 0;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text:nth-child(2n + 1) {
+    clear: left;
+  }
+  [data-main='switch'] .softIndex-mainNav__text {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 0px;
+    width: calc((100% - 0px * (4 - 1)) / 4);
+  }
+  [data-main='switch'] .softIndex-mainNav__text:not(:nth-child(-n+4)) {
+    padding-top: 0px;
+  }
+  [data-main='switch'] .softIndex-mainNav__text:nth-child(4n) {
+    margin-right: 0;
+  }
+  [data-main='switch'] .softIndex-mainNav__text:nth-child(4n + 1) {
+    clear: left;
+  }
+  [data-main='3ds'] .softIndex-mainNav__text {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 0px;
+    width: calc((100% - 0px * (4 - 1)) / 4);
+  }
+  [data-main='3ds'] .softIndex-mainNav__text:not(:nth-child(-n+4)) {
+    padding-top: 0px;
+  }
+  [data-main='3ds'] .softIndex-mainNav__text:nth-child(4n) {
+    margin-right: 0;
+  }
+  [data-main='3ds'] .softIndex-mainNav__text:nth-child(4n + 1) {
+    clear: left;
+  }
+  .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    cursor: pointer;
+  }
+  [data-main='switch'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__text .softIndex-mainNav__smoothscroll {
+    color: #ce181e;
+  }
+  .softIndex-mainNav__text .softIndex-mainNav__smoothscroll span {
+    color: #fff;
+    vertical-align: top;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__download-pc {
+    position: relative;
+    margin: 0 -24px;
+    padding: 19px 0 0;
+    line-height: 18px;
+    font-size: 15px;
+    letter-spacing: 0.075em;
+    background-image: -webkit-linear-gradient(left, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to right, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 4px 1px;
+  }
+  .softIndex-mainNav__download-pc a {
+    display: block;
+    text-align: center;
+  }
+  [data-main='switch'] .softIndex-mainNav__download-pc a {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__download-pc a {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__download-pc a {
+    color: #ce181e;
+  }
+  .softIndex-mainNav__download-pc a:hover > span,
+  .softIndex-mainNav__download-pc a:hover > img {
+    opacity: 0.7;
+  }
+  .softIndex-mainNav__download-pc img {
+    width: 35px;
+    height: 35px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 12px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .softIndex-mainNav__download-pc span {
+    color: #fff;
+    letter-spacing: 0.045em;
+    display: inline-block;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    vertical-align: middle;
+  }
+  .softIndex-mainNav__download-pc span span {
+    font-size: 13px;
+    letter-spacing: 0.075em;
+    margin-bottom: 2px;
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__download-pc {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__download-sp {
+    padding: 23px 0 21px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-mainNav__download-sp {
+    padding: 21px 0;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .softIndex-mainNav__download-sp {
+    line-height: 19px;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    text-align: center;
+  }
+  [data-main='switch'] .softIndex-mainNav__download-sp a {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__download-sp a {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__download-sp a {
+    color: #ce181e;
+  }
+  .softIndex-mainNav__download-sp a:hover > span {
+    opacity: 0.7;
+  }
+  .softIndex-mainNav__download-sp img {
+    width: 19px;
+    height: 19px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-right: 9px;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .softIndex-mainNav__download-sp span {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-transition: all 150ms linear;
+    transition: all 150ms linear;
+    line-height: 18px;
+    vertical-align: middle;
+    margin-top: -1px;
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-mainNav__download-sp {
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 0.1px 0.1px #fff;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-mainNav__download-sp {
+    display: none;
+  }
+}
+.softIndex-mainNav__btn {
+  text-align: center;
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__btn {
+    padding: 17px 0 20px;
+    background-image: -webkit-linear-gradient(left, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to right, #fff, #fff 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 4px 1px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-mainNav__btn a {
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    line-height: 14px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 9px 12px;
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    font-weight: bold;
+    text-shadow: 0.1px 0.1px #fff;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    -webkit-transition: border-color 150ms linear, background-color 150ms linear, color 150ms linear;
+    transition: border-color 150ms linear, background-color 150ms linear, color 150ms linear;
+    box-sizing: border-box;
+    width: calc(100% - 48px);
+    position: relative;
+  }
+  [data-main='switch'] .softIndex-mainNav__btn a {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__btn a {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__btn a {
+    color: #ce181e;
+  }
+  .softIndex-mainNav__btn a span {
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .softIndex-mainNav__btn a:hover {
+    background-color: #fff;
+  }
+  [data-main='switch'] .softIndex-mainNav__btn a:hover span {
+    color: #e60012;
+  }
+  [data-main='wiiu'] .softIndex-mainNav__btn a:hover span {
+    color: #0096c8;
+  }
+  [data-main='3ds'] .softIndex-mainNav__btn a:hover span {
+    color: #ce181e;
+  }
+}
+/* uiplaceholder */
+.soft-main__sliderGhost {
+  position: relative;
+}
+.soft-main__sliderGhost:before,
+.soft-main__sliderGhost:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: #8c8c8c;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main__sliderGhost:before,
+  .soft-main__sliderGhost:after {
+    width: calc((100% - 720px) * 0.5 - 6px);
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main__sliderGhost:before,
+  .soft-main__sliderGhost:after {
+    width: calc((100% - 77%) * 0.5 - 6px);
+  }
+}
+.soft-main__sliderGhost:before {
+  left: 0;
+}
+.soft-main__sliderGhost:after {
+  right: 0;
+}
+.soft-main__sliderItemGhost {
+  margin: 0 auto;
+  background-color: #8c8c8c;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main__sliderItemGhost {
+    position: relative;
+    width: 720px;
+  }
+  .soft-main__sliderItemGhost:before {
+    content: '';
+    display: block;
+    padding-bottom: 41.66666666666667%;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main__sliderItemGhost {
+    position: relative;
+    width: 77%;
+  }
+  .soft-main__sliderItemGhost:before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+}
+@media screen and (min-width: 375px) {
+  .only-sp_small {
+    display: none;
+  }
+}
+@media screen and (max-width: 374px) {
+  .softIndex-mainNav__download-sp span {
+    text-align: left;
+    width: 158px;
+    padding: 0 3px;
+  }
+  .only-sp_small {
+    display: inline;
+  }
+}
+.soft-main-largeBanner::before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner::before {
+    padding-top: 36.120996441281136%;
+  }
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="3ds"] .soft-main-largeBanner:last-child {
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner {
+    margin-bottom: 4px;
+    background-color: #e6e6e6;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-largeBanner {
+    background-color: #d00113;
+  }
+  .softIndex-main--xmas .soft-main-largeBanner {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner.-main .soft-topBanner__itemDetail,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemDetail {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    padding: 0 0 22px 22px;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemHeading,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemHeading {
+    font-size: 1.5vw;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: 12px;
+    max-width: 53vw;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemTitle,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemTitle {
+    font-size: 1.2vw;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    line-height: 1.4;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSale,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSale {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSale.-onSale,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSale.-onSale {
+    font-size: 1.5vw;
+    letter-spacing: 0.05em;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleDate,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleDate {
+    font-size: 2.1vw;
+    line-height: 1;
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleText,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleText {
+    font-size: 1.2vw;
+    line-height: calc((30 / 1440) * 100vw);
+    padding-left: 10px;
+    display: block;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemButton,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemButton {
+    text-align: right;
+    margin-right: 14px;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner.-main .soft-topBanner__itemHeading,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemHeading {
+    font-size: 21.6px;
+    max-width: 763.2px;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleDate,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleDate {
+    font-size: 30px;
+    padding-top: 0;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleText,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleText {
+    font-size: 17px;
+    padding-top: 0;
+    padding-left: 10px;
+    padding-bottom: 0;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemTitle,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemTitle {
+    font-size: 17.28px;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSale.-onSale,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSale.-onSale {
+    font-size: 21.6px;
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 1440px), print {
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleText,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleText {
+    line-height: 30px;
+    -webkit-transform: translateY(2px);
+            transform: translateY(2px);
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-main-largeBanner.-main .soft-topBanner__itemStatusOnSaleText,
+  .soft-main-largeBanner.-sub .soft-topBanner__itemStatusOnSaleText {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-largeBanner.-main {
+    margin-left: calc(-40 / 1536 * 100vw);
+    width: calc(1070 / 1536 * 100vw);
+    border-bottom: calc(10 / 1536 * 100vw) solid #fff;
+    margin-bottom: calc(40 / 1536 * 100vw);
+  }
+  .soft-main-largeBanner.-main::before {
+    padding-top: 90.66666666666666%;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemDetail {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-largeBanner.-main {
+    margin-left: -12px;
+    width: 100vw;
+  }
+  .soft-main-largeBanner.-main::before {
+    padding-top: 90.66666666666666%;
+  }
+  .soft-main-largeBanner.-main .soft-topBanner__itemDetail {
+    display: none;
+  }
+}
+.soft-main-largeBanner > a {
+  display: block;
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-largeBanner.-sub {
+    min-height: 256px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-largeBanner.-sub .soft-main-largeBanner__img {
+    position: relative;
+    padding-top: 56.12535612535613%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-largeBanner.-sub {
+    width: 100%;
+  }
+}
+@media print {
+  [data-bodytheme="switch"] .soft-main-largeBanner {
+    display: none;
+  }
+}
+.soft-main-largeBanner .soft-topBanner__itemStatusOnSale {
+  position: relative;
+}
+.soft-main-largeBanner .soft-topBanner__itemStatusOnSale::before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url("../../../software/img/icon-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 1.2vw;
+  height: 1.2vw;
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale::before {
+    width: 17px;
+    height: 17px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale::before {
+    right: -26px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale::before {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-notOnSale::before {
+    top: 7px;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-notOnSale::before {
+    top: 7px;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-notOnSale::before {
+    top: 5px;
+  }
+}
+@media screen and (min-width: 1200px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-onSale::before {
+    top: 8px;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-onSale::before {
+    top: 7px;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-main-largeBanner .soft-topBanner__itemStatusOnSale.-onSale::before {
+    top: 5px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemDetailBody--main .soft-topBanner__itemStatusOnSale {
+    top: 8px;
+  }
+}
+.soft-main-largeBanner__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner__img.-small {
+    display: none;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-largeBanner__img.-large {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-largeBanner.-sub .soft-main-largeBanner__img.-large {
+    display: block;
+    padding-top: 36.26373626373626%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-largeBanner.-sub .soft-main-largeBanner__img.-small {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemDetailBody {
+    position: relative;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemDetailBody::after {
+    content: "";
+    position: relative;
+    display: block;
+    width: 1.2vw;
+    height: 1.2vw;
+    background-image: url("../../../software/img/icon-arrow.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0;
+    flex-shrink: 0;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatusOnSaleText {
+    font-size: 1vw;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatusOnSale {
+    line-height: 1;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-smallBanner .soft-topBanner__itemDetailBody::before {
+    width: 17px;
+    height: 17px;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemDetailBody::after {
+    width: 21px;
+    height: 21px;
+    margin-top: 2px;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatusOnSaleText {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-smallBanner {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media print {
+  [data-bodytheme="switch"] .soft-main-smallBanner {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemDetailBody {
+    position: relative;
+    min-height: 21px;
+    top: 10px;
+  }
+  .soft-main-largeBanner .soft-topBanner__itemStatus {
+    position: absolute;
+    right: 3.3vw;
+    bottom: -14px;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    white-space: nowrap;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-main-largeBanner .soft-topBanner__itemDetailBody::before {
+    top: 7px;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemDetailBody::before {
+    width: 17px;
+    height: 17px;
+    right: 14px;
+    top: 6.5px;
+  }
+  .soft-main-largeBanner .soft-topBanner__itemStatus {
+    right: 40px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner.-main .soft-topBanner__itemDetailBody::before {
+    top: 4.5px;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner.-main .soft-topBanner__itemDetailBody::before {
+    top: 4.5px;
+  }
+}
+.soft-main-smallBanner__item {
+  position: relative;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item {
+    width: calc(50% - 2px);
+    position: relative;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:before {
+    content: '';
+    display: block;
+    padding-bottom: 72.42339832869081%;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item::before {
+    padding-top: 0;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:not(:nth-child(2n)) {
+    margin-right: 4px;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:nth-child(2n) {
+    margin-right: auto;
+  }
+}
+.soft-main-smallBanner__item::before {
+  content: "";
+  display: block;
+  width: 100%;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner__item::before {
+    padding-top: 56.18279569892473%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-smallBanner__item {
+    width: calc(50% - 1.30208vw);
+  }
+  .soft-main-smallBanner__item:not(:nth-child(2n)) {
+    margin-right: calc(40 / 1536 * 100vw);
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-smallBanner__item {
+    min-height: 256px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner__item {
+    background-color: #e6e6e6;
+    width: calc(33.333333% - 4px * 2 / 3);
+  }
+  .soft-main-smallBanner__item:not(:nth-child(3n)) {
+    margin-right: 4px;
+  }
+  .soft-main-smallBanner__item:nth-child(-n+3) {
+    margin-bottom: 4px;
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemTitle {
+    display: none;
+    position: absolute;
+    top: calc((80.3921568627451% - 100%) * 100 / 80.3921568627451);
+    left: 0;
+    padding: 7px 10px;
+    background-color: rgba(0,0,0,0.75);
+    font-size: 11px;
+    font-weight: bold;
+    color: #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale:after,
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale:after {
+    top: 50%;
+    -webkit-transform: translateY(-51%);
+            transform: translateY(-51%);
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemDetail {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    height: 25.392156862745097%;
+    padding: 0 calc((10 / 1440) * 100vw) calc((10 / 1440) * 100vw);
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemHeading {
+    font-size: 16px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    display: none;
+    margin-bottom: 7px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #fff;
+    line-height: 1.41;
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemDetailBody {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemStatusOnSaleDate {
+    font-size: calc((26 / 1440) * 100vw);
+    margin-right: 5px;
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemButton {
+    font-size: 11px;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item {
+    width: calc(50% - 2px);
+    position: relative;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:not(:nth-child(2n)) {
+    margin-right: 4px;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:nth-child(2n) {
+    margin-right: auto;
+  }
+  .soft-main-smallBanner--2clm .soft-main-smallBanner__item:before {
+    content: '';
+    display: block;
+    padding-bottom: 72.42339832869081%;
+    padding-top: 0;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-smallBanner__item .soft-topBanner__itemStatusOnSaleDate {
+    font-size: 26px;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1260px) {
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::after {
+    width: 69px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-preOrder-small.svg");
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::after {
+    width: 69px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-trial-small.svg");
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::before,
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::before {
+    margin-right: 22px;
+    -webkit-transform: translateY(-24px);
+            transform: translateY(-24px);
+  }
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::after,
+  .soft-main-smallBanner__item .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::after {
+    left: 0;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-smallBanner__item .soft-topBanner__itemImg {
+    padding-top: 56.12535612535613%;
+  }
+  .soft-main-smallBanner__item > div {
+    background-color: #d00113;
+  }
+  .softIndex-main--xmas .soft-main-smallBanner__item > div {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner__item:hover .soft-topBanner__itemTitle {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 1440px), print {
+  .soft-main-smallBanner__item .soft-topBanner__itemDetail {
+    padding: 0 10px 10px;
+  }
+}
+@media screen and (min-width: 980px) and (min-width: 980px), print {
+  .soft-main-smallBanner__item.-onSale {
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+  .soft-main-smallBanner__item.-notOnSale {
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+.soft-main-smallBanner__itemImg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner__itemImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-smallBanner__itemImg {
+    padding-top: 56.18279569892473%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-largeBanner.-sub .soft-main-smallBanner__itemImg {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner .soft-topBanner__itemStatusOnSale {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: end;
+            align-items: flex-end;
+    font-size: 1.3vw;
+  }
+  .soft-topBanner__itemLarge .soft-topBanner__itemStatus__inner .soft-topBanner__itemStatusOnSale {
+    -webkit-box-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemStatus__inner .soft-topBanner__itemStatusOnSale {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__itemStatus__inner .soft-topBanner__itemStatusOnSale {
+    -webkit-box-align: center;
+            align-items: center;
+  }
+}
+.soft-main-smallBanner .soft-topBanner__itemStatus__inner .soft-topBanner__itemStatusOnSale::before {
+  margin-right: 10px;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-sale .soft-topBanner__itemStatusOnSale {
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+.soft-topBanner__itemStatus__inner.-sale .soft-topBanner__itemStatusOnSale::before {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-sale .soft-topBanner__itemStatusOnSale::before {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    white-space: nowrap;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale {
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+.soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 49%;
+    -webkit-transform: translateY(-49%);
+            transform: translateY(-49%);
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    white-space: nowrap;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale {
+    position: relative;
+    box-sizing: border-box;
+  }
+}
+.soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    position: absolute;
+    right: calc(100% + 10px);
+    top: 49%;
+    -webkit-transform: translateY(-49%);
+            transform: translateY(-49%);
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    white-space: nowrap;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+}
+.soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+  content: "予約受付中";
+  font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+}
+html:not(.alps-os-android) .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+  font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    content: "";
+    width: 8.1vw;
+    height: 1.8vw;
+    background-image: url("../../../software/img/icon-preOrder.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    width: 116px;
+    height: 26px;
+    top: 42%;
+  }
+}
+.soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::before {
+  content: "";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::before {
+    width: 97px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-preOrder.svg");
+    margin-top: 2px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::before {
+    display: none;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    content: "予約受付中";
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+  }
+  html:not(.alps-os-android) .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+}
+.soft-main-largeBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+  content: "体験版配信中";
+  font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+}
+html:not(.alps-os-android) .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+  font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    content: "";
+    width: 8.1vw;
+    height: 1.8vw;
+    background-image: url("../../../software/img/icon-trial.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    width: 116px;
+    height: 26px;
+    top: 52%;
+  }
+}
+.soft-main-smallBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+  content: "";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+    width: 97px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-trial.svg");
+    margin-top: 2px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+    display: none;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    content: "体験版配信中";
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+  }
+  html:not(.alps-os-android) .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+}
+.soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+  content: "体験版配信中\A予約受付中";
+  white-space: pre;
+  font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+}
+html:not(.alps-os-android) .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+  font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    content: "";
+    width: 17.5vw;
+    height: 1.8vw;
+    background-image: url("../../../software/img/icon-trial.svg"), url("../../../software/img/icon-preOrder.svg");
+    background-position: left 0 bottom 0, right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    width: 250px;
+    height: 26px;
+    top: 42%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-largeBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    bottom: -40px;
+  }
+}
+.soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+  content: "";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+    max-width: 200px;
+    max-height: 21px;
+    width: 11.5vw;
+    height: 1.2vw;
+    background-image: url("../../../software/img/icon-trial.svg"), url("../../../software/img/icon-preOrder.svg");
+    background-position: left 0 bottom 0, right 0 bottom 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::before {
+    display: none;
+  }
+  .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    content: "体験版配信中\A予約受付中";
+    white-space: pre;
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+    bottom: -40px;
+  }
+  html:not(.alps-os-android) .soft-main-smallBanner .soft-topBanner__itemStatus__inner.-preOrder.-trialVersion .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatus__inner.-sale::before {
+    display: block;
+    content: "";
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    left: auto;
+    bottom: auto;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-sale-tri.svg");
+    -webkit-transform: none;
+            transform: none;
+    position: absolute;
+  }
+}
+.soft-topBanner__itemStatus__inner.-sale .soft-topBanner__itemStatusOnSale::before {
+  content: "";
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner.-sale .soft-topBanner__itemStatusOnSale::before {
+    width: 97px;
+    height: 21px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-sale.svg");
+    margin-top: 2px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::before,
+  .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::before {
+    margin-right: 110px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::after,
+  .soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::after {
+    left: 65px;
+  }
+}
+.soft-topBanner__itemStatus__inner.-preOrder.-sale .soft-topBanner__itemStatusOnSale::before {
+  width: 200px;
+  background-image: url("../../../software/img/icon-sale.svg"), url("../../../software/img/icon-preOrder.svg");
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+.soft-topBanner__itemStatus__inner.-trialVersion.-sale .soft-topBanner__itemStatusOnSale::before {
+  width: 200px;
+  background-image: url("../../../software/img/icon-sale.svg"), url("../../../software/img/icon-trial.svg");
+  background-repeat: no-repeat;
+  background-position: left, right;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSale {
+    border: 1.5px solid #fff;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSale {
+    min-width: 64px;
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    white-space: nowrap;
+    min-height: 24px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-topBanner__itemStatusOnSale {
+    border: 2px solid #fff;
+  }
+}
+.soft-topBanner__itemStatusOnSaleDate {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSaleDate {
+    margin-right: 1px;
+    font-size: 13px;
+    display: block;
+    line-height: 1;
+  }
+}
+.soft-topBanner__itemStatusOnSaleText {
+  white-space: nowrap;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSaleText {
+    display: block;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+    line-height: 13px;
+  }
+}
+.soft-topBanner__item {
+  position: relative;
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__item:hover .soft-topBanner__itemDetail {
+    opacity: 1;
+  }
+}
+.soft-topBanner__itemDetail {
+  color: #fff;
+  font-weight: bold;
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemDetail {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40.39408866995074%;
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 26%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 26%, rgba(0,0,0,0) 100%);
+    opacity: 0;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemDetail {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+    padding: 9px 0 28px;
+  }
+  [data-main='switch'] .soft-topBanner__itemDetail {
+    background-color: #e60012;
+  }
+  [data-main='wiiu'] .soft-topBanner__itemDetail {
+    background-color: #0096c8;
+  }
+  [data-main='3ds'] .soft-topBanner__itemDetail {
+    background-color: #ce181e;
+  }
+  .softIndex-main--xmas .soft-topBanner__itemDetail {
+    background: transparent;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemDetailHead {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemDetailHead {
+    padding: 1px 28px 0 11px;
+    border-left: 5px solid #fff;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-topBanner__itemHeading {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    margin-top: -0.32em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-topBanner__itemHeading {
+    font-size: 13px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-topBanner__itemTitle {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    margin-bottom: -0.34em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemTitle {
+    padding-top: 7px;
+    opacity: 0.5;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-topBanner__itemTitle {
+    font-size: 10px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    padding-bottom: 2px;
+  }
+}
+.soft-topBanner__itemButton {
+  display: none;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemButton {
+    display: none;
+  }
+}
+#soft-search {
+  position: relative;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] #soft-search {
+    padding-top: 10px;
+  }
+}
+#soft-wii-search,
+#soft-wii-all-search,
+#soft-ds-search {
+  position: relative;
+}
+.soft-main-stickyNav {
+  height: 0;
+}
+.soft-main-stickyNav__inner {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 12px;
+  opacity: 0;
+  box-sizing: border-box;
+  background: #e60012;
+  box-shadow: 0px 4px 15.6px 1.9px rgba(0,5,27,0.58);
+  z-index: 999999;
+}
+[data-main='switch'] .soft-main-stickyNav__inner {
+  background-color: #e60012;
+}
+[data-main='wiiu'] .soft-main-stickyNav__inner {
+  background-color: #0096c8;
+}
+[data-main='3ds'] .soft-main-stickyNav__inner {
+  background-color: #ce181e;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-stickyNav__inner {
+    display: none;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-stickyNav__inner ul {
+    font-size: 0;
+  }
+  [data-bodytheme="switch"] .soft-main-stickyNav__inner {
+    padding: 12px 12px 8px 12px;
+  }
+}
+.soft-main-stickyNav.is-static .soft-main-stickyNav__inner {
+  -webkit-transform: translate3d(0, -100%, 0) !important;
+          transform: translate3d(0, -100%, 0) !important;
+  -webkit-transition: opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: transform 200ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease !important;
+  transition: transform 200ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  pointer-events: none;
+}
+.soft-main-stickyNav.is-fixed .soft-main-stickyNav__inner {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) !important;
+          transform: translate3d(0, 0, 0) !important;
+  -webkit-transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease !important;
+  transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  pointer-events: auto;
+}
+.soft-main-stickyNav__item:first-child {
+  display: none;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-stickyNav__item {
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-stickyNav__item {
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-main-stickyNav__item {
+    display: inline-block;
+    width: calc(33.3% - 1px * 4 / 3);
+    border-right: 1px solid #fff;
+    font-weight: bold;
+    color: #fff;
+    line-height: 27px;
+    text-align: center;
+  }
+  [data-main='3ds'] .soft-main-stickyNav__item {
+    width: calc(50% - 1px * 2);
+  }
+  .soft-main-stickyNav__item:nth-child(2) {
+    border-left: 1px solid #fff;
+  }
+  .soft-main-stickyNav__item > span {
+    display: block;
+    width: calc(100% - 8px);
+    margin: auto;
+    border-radius: 1px;
+    -webkit-transition: background 0.3s ease-in;
+    transition: background 0.3s ease-in;
+  }
+}
+.soft-main-stickyNav__item.is-active > span {
+  background: rgba(0,0,0,0.15);
+}
+.soft-main-stickySearch {
+  height: 0;
+}
+@media screen and (min-width: 760px), print {
+  .soft-main-stickySearch {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-stickySearch {
+    position: unset;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .soft-main-stickySearch.is-static {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-stickySearch.soft-main-stickySearch--permanentFixed {
+    display: none;
+  }
+}
+.soft-main-stickySearch__opener {
+  position: fixed;
+  left: auto !important;
+  top: auto !important;
+  visibility: hidden;
+  -webkit-transform: scale(0) !important;
+          transform: scale(0) !important;
+  border: none;
+  z-index: 8000;
+  right: 17px;
+  bottom: 17px;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border-radius: 50%;
+  background: #f6f5f5;
+  box-shadow: 0px 8px 8px 0 rgba(0,0,0,0.2);
+  border: solid 1px rgba(222,222,222,0.41);
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-stickySearch__opener {
+    display: none;
+  }
+}
+.soft-main-stickySearch.is-moduleready .soft-main-stickySearch__opener {
+  visibility: visible;
+}
+.soft-main-stickySearch.is-fixed .soft-main-stickySearch__opener {
+  -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0deg) !important;
+          transform: translate3d(0, 0, 0) scale(1) rotate(0deg) !important;
+  -webkit-transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease !important;
+  transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+}
+.soft-main-stickySearch.is-focused .soft-main-stickySearch__opener,
+.soft-main-stickySearch.is-static .soft-main-stickySearch__opener,
+.soft-main-stickySearch.is-upper .soft-main-stickySearch__opener {
+  -webkit-transform: translate3d(30px, 60px, 0) scale(0) rotate(-45deg) !important;
+          transform: translate3d(30px, 60px, 0) scale(0) rotate(-45deg) !important;
+  -webkit-transition: opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  transition: transform 200ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease !important;
+  transition: transform 200ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease, -webkit-transform 200ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-main-stickySearch--permanentFixed:not(.is-fixed) .soft-main-stickySearch__opener {
+    -webkit-transform: translate3d(0, 0, 0) scale(1) rotate(0deg) !important;
+            transform: translate3d(0, 0, 0) scale(1) rotate(0deg) !important;
+    -webkit-transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+    transition: opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+    transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease !important;
+    transition: transform 300ms cubic-bezier(0.77, 0, 0.175, 1), opacity 300ms ease, -webkit-transform 300ms cubic-bezier(0.77, 0, 0.175, 1) !important;
+  }
+}
+.soft-main-stickySearch__opener svg {
+  width: 23px;
+  height: 23px;
+  fill: #999;
+}
+.soft-main-stickySearch__box {
+  opacity: 0;
+  position: static !important;
+}
+.soft-main-stickySearch__box.is-focused {
+  opacity: 1;
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1000000;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+}
+.soft-main-stickySearch__drop {
+  position: relative !important;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff !important;
+  z-index: 999998;
+  opacity: 1;
+  -webkit-transition: opacity 150ms linear;
+  transition: opacity 150ms linear;
+}
+html[data-android="1"] .soft-main-stickySearch__drop {
+  height: 100%;
+  overflow-y: scroll;
+}
+.is-as-suggest-focus .soft-main-stickySearch__drop {
+  opacity: 0.7;
+  -webkit-transition: opacity 150ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: opacity 150ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (max-width: 759.98px) {
+  .soft-main-stickySearch__drop {
+    max-height: calc(100% - 135px);
+    overflow-y: scroll;
+  }
+}
+.soft-main-stickySearch__textWrap {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 999999;
+  box-shadow: 0px 4px 10.7px 1.3px rgba(0,5,27,0.32);
+  background-color: #f2f2f2;
+}
+.soft-main-stickySearch.is-focused .soft-main-stickySearch__textWrap {
+  opacity: 1;
+  pointer-events: auto;
+}
+.soft-main-stickySearch__textWrap .nc3-as-box__text {
+  height: 50px;
+  padding-left: 14px !important;
+  padding-right: 52px !important;
+  border-radius: 2px;
+  background-color: #fdfffe;
+  box-shadow: 0px 0px 10.7px 0px rgba(0,0,0,0.32) inset;
+  font-size: 12px;
+  margin-top: -0.65em;
+  margin-bottom: -0.35em;
+}
+.soft-main-stickySearch__text {
+  position: absolute;
+  text-indent: -9999px;
+  top: 0;
+  left: 0;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgba(153,153,153,0.92);
+}
+@media screen and (min-width: 980px), print {
+  .soft-engine {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .nc3-as-result--soft .nc3-as-pager__list {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .nc3-as-result--soft .nc3-as-pager__select {
+    display: none;
+  }
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="recommended"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square),
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="nintendo"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square),
+[data-bodytheme="3ds"] .softIndex-lineup[data-tab="recommended"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square),
+[data-bodytheme="wiiu"] .softIndex-lineup[data-tab="recommended"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square) {
+  display: none;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="all"] .nc3-c-softCard__thumb--square {
+  display: none;
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-lineup {
+    padding-bottom: 105px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-lineup {
+    padding-bottom: 42px;
+    z-index: auto !important;
+  }
+  [data-bodytheme="switch"] .softIndex-lineup {
+    padding-bottom: 31px;
+  }
+  .softIndex-lineup .nc3-c-tabSwitcher {
+    position: absolute;
+    width: calc(100% - 28px);
+    left: 14px;
+    z-index: 1;
+  }
+  .softIndex-lineup .nc3-c-tabSwitcher li {
+    width: calc((100% - 8px) / 3);
+  }
+  .softIndex-lineup .nc3-c-tabSwitcher li button {
+    width: 100%;
+  }
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="recommended"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square),
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="nintendo"] .nc3-c-softCard__thumb:not(.nc3-c-softCard__thumb--square) {
+  display: none;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="all"] .nc3-c-softCard__thumb--square {
+  display: none;
+}
+@media screen and (max-width: 759.98px) and (min-width: 760px) {
+  .softIndex-lineup .nc3-c-tabSwitcher {
+    top: 99px;
+  }
+}
+@media screen and (max-width: 759.98px) and (max-width: 759.98px) {
+  .softIndex-lineup .nc3-c-tabSwitcher {
+    top: 80px;
+  }
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .softIndex-caption,
+  [data-bodytheme="wiiu"] .softIndex-caption {
+    margin-bottom: 120px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .softIndex-caption,
+  [data-bodytheme="wiiu"] .softIndex-caption {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-caption {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-caption {
+    margin-top: 42px;
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-caption {
+    margin-top: 37px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-caption--ranking {
+    padding-top: 42px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-caption--ranking {
+    margin-top: -60px;
+  }
+}
+.soft-search__rtRecommended {
+  display: none;
+}
+/* uiplaceholder */
+@media screen and (min-width: 980px), print {
+  .soft-search__itemGhost {
+    padding-bottom: 147px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-search__itemGhost {
+    padding-bottom: 144px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-search__itemGhost {
+    padding-bottom: 115px;
+  }
+}
+.soft-search__itemGhostThumb {
+  position: relative;
+  background-color: #e6e6e6;
+}
+.soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 56.25%;
+}
+[data-bodytheme="switch"] .softIndex-lineup .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="switch"] .softIndex-lineup .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="nintendo"] .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="nintendo"] .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="recommend"] .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="recommend"] .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="all"] .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="switch"] .softIndex-lineup[data-tab="all"] .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 56.25%;
+}
+[data-bodytheme="3ds"] .softIndex-lineup[data-tab="recommended"] .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="3ds"] .softIndex-lineup[data-tab="recommended"] .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+[data-bodytheme="wiiu"] .softIndex-lineup[data-tab="recommended"] .soft-search__itemGhostThumb {
+  position: relative;
+}
+[data-bodytheme="wiiu"] .softIndex-lineup[data-tab="recommended"] .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sectionHeader.nc3-c-borderHeader {
+    border-bottom-style: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sectionHeader__main.nc3-c-borderHeader__main {
+    font-size: 16px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    font-weight: bold;
+  }
+}
+/* 以下、検索改修でsoftでは使わなくなったが、特集で必要なので残しのスタイル */
+.soft-search__loading {
+  position: relative;
+  display: none;
+}
+.soft-search__loading.js-visible {
+  display: block;
+}
+.soft-search__loadingInner {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-bottom-color: rgba(0,0,0,0) !important;
+  border-color: #e60012;
+  -webkit-animation: soft_search__loadingInnerAnime 600ms linear 0s infinite;
+          animation: soft_search__loadingInnerAnime 600ms linear 0s infinite;
+}
+[data-bodytheme='wiiu'] .soft-search__loadingInner {
+  border-color: #0096c8;
+}
+[data-bodytheme='3ds'] .soft-search__loadingInner {
+  border-color: #ce181e;
+}
+.soft-search__noHit {
+  position: relative;
+  display: none;
+}
+.soft-search__noHit.js-visible {
+  display: block;
+}
+.soft-search__noHitInner {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  line-height: 2em;
+}
+.soft-search__noHitInner h4 {
+  font-weight: bold;
+  font-size: 16px;
+}
+@media screen and (max-width: 759.98px) {
+  .soft-search__noHitInner h4 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-search__noHitInner p {
+    font-size: 12px;
+  }
+}
+.soft-featureSlider {
+  margin: 42px auto 105px;
+}
+@media screen and (min-width: 980px), print {
+  .soft-featureSlider {
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider {
+    margin-top: 40px;
+    margin-bottom: 34px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider {
+    margin: 18px auto;
+  }
+  [data-bodytheme="switch"] .soft-featureSlider {
+    margin: 18px auto 8px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-featureSlider.is-moduleready {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-featureSlider [data-njs="scroller__wrap"] > div {
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider [data-njs="scroller__wrap"] > div {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider__clip {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  .soft-featureSlider__clip::-webkit-scrollbar {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-featureSlider__container {
+    min-height: 231px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider__container::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__container [data-njs="scroller__ghost"] {
+    padding: 0 28px 0 14px;
+  }
+}
+.soft-featureSlider__container::-webkit-scrollbar {
+  display: none;
+}
+.soft-featureSlider__item {
+  border-radius: 8px;
+  color: #fff;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 980px), print {
+  .soft-featureSlider__item {
+    width: 230px;
+    height: 230px;
+    margin-right: 18px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider__item {
+    width: calc(335 / 1536 * 100vw);
+    height: calc(335 / 1536 * 100vw);
+    margin-right: 6px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__item {
+    width: 159px;
+    height: 159px;
+    margin-right: 6px;
+  }
+}
+.soft-featureSlider__item:empty {
+  width: 0;
+}
+@media screen and (min-width: 760px), print {
+  .soft-featureSlider__item:empty ~ * {
+    margin-left: -18px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__item:empty ~ * {
+    margin-left: -6px;
+  }
+}
+.soft-featureSlider__item a {
+  display: block;
+  height: 100%;
+  background-size: cover;
+}
+.soft-featureSlider__item a > * {
+  -webkit-filter: drop-shadow(0 0 8px rgba(0,0,0,0.25));
+          filter: drop-shadow(0 0 8px rgba(0,0,0,0.25));
+}
+.soft-featureSlider__item:hover {
+  opacity: 0.7;
+}
+.soft-featureSlider__icon {
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-width: 760px), print {
+  .soft-featureSlider__icon {
+    top: 14px;
+    left: 14px;
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__icon {
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+}
+.soft-featureSlider__genre {
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+@media screen and (min-width: 760px), print {
+  .soft-featureSlider__genre {
+    top: 14px;
+    right: 14px;
+    font-size: 16px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__genre {
+    top: 10px;
+    right: 10px;
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+.soft-featureSlider__name {
+  font-size: 14px;
+  margin-top: -0.65em;
+  margin-bottom: -0.35em;
+}
+.soft-featureSlider__name span {
+  font-size: 18px;
+  margin-top: -0.65em;
+  margin-bottom: -0.35em;
+}
+[data-itemcnt="3"] .soft-featureSlider__paperArea {
+  display: none;
+}
+@media screen and (min-width: 760px), print {
+  .soft-featureSlider__pager {
+    padding-top: 28px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__pager {
+    padding-top: 14px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-featureSlider__item--more {
+    height: 230px;
+    width: 190px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureSlider__item--more {
+    height: 100%;
+    width: 215px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__item--more {
+    width: 213px;
+    height: 159px;
+  }
+}
+.soft-featureSlider__item--more:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-image: -webkit-linear-gradient(top, #e6e6e6, #e6e6e6 1px, transparent 1px, transparent 3px);
+  background-image: linear-gradient(to bottom, #e6e6e6, #e6e6e6 1px, transparent 1px, transparent 3px);
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-size: 1px 4px;
+  left: 0;
+}
+.soft-featureSlider__user {
+  position: absolute;
+  font-weight: bold;
+  color: #fff;
+}
+@media screen and (min-width: 760px), print {
+  .soft-featureSlider__user {
+    bottom: 72px;
+    left: 14px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-featureSlider__user {
+    bottom: 49px;
+    left: 9px;
+  }
+}
+.soft-memories {
+  text-align: center;
+  margin: 38px auto;
+}
+[data-bodytheme="wiiu"] .soft-memories {
+  margin: 0 auto;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .soft-memories {
+    margin: 0 auto;
+  }
+}
+[data-bodytheme="3ds"] .soft-memories {
+  margin: 0 auto;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .soft-memories {
+    margin: 0 auto;
+  }
+}
+.soft-memories .soft-memories__item img {
+  width: 100%;
+}
+.soft-memories .soft-memories__item a {
+  display: block;
+  width: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+.soft-memories .soft-memories__item a:hover {
+  opacity: 0.7;
+  background-color: #fff !important;
+}
+[data-bodytheme="switch"] .soft-featureClassic,
+[data-bodytheme="3ds"] .soft-featureClassic {
+  text-align: center;
+  margin: 26px auto 34px;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__list,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__list {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 639px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__list,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__list {
+    margin-top: -11px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 414px;
+    width: 100%;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap {
+  max-width: 974px;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap {
+    display: -webkit-box;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap {
+    margin-right: 14px;
+    margin-left: 14px;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline {
+  max-width: 974px;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline {
+    display: -webkit-box;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline {
+    display: -webkit-box;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap--oneline {
+    margin-right: 14px;
+    margin-left: 14px;
+    padding-top: 6px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap {
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap {
+    display: -webkit-box;
+    display: flex;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--left a:hover > img,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--left a:hover > img {
+  opacity: 0.7;
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--right a:hover > img,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--right a:hover > img {
+  opacity: 0.7;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--right {
+    margin-left: 14px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--right {
+    margin-left: 14px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--right {
+    display: -webkit-box;
+    display: flex;
+    margin-top: -3px;
+    margin-bottom: 3px;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right {
+  position: relative;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right {
+    margin-left: 25px;
+    padding-left: 24px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right {
+    background-image: -webkit-linear-gradient(left, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to right, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-x;
+    background-position: left top;
+    background-size: 4px 1px;
+    margin-top: 18px;
+    padding-top: 14px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right:before,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right:before {
+    background-image: -webkit-linear-gradient(top, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to bottom, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-y;
+    background-position: left top;
+    background-size: 1px 4px;
+    position: absolute;
+    top: 32px;
+    bottom: 20px;
+    left: 0;
+    display: block;
+    width: 1px;
+    content: '';
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item {
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  position: relative;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item {
+    width: calc(480 / 1120 * 100vw - 30px);
+    max-width: 480px;
+    margin-top: 12px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 979px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 759px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item {
+    margin-top: 6px;
+  }
+}
+@media screen and (max-width: 639px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 6px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item + .soft-featureClassic__itemWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item + .soft-featureClassic__itemWrap {
+    margin-left: 12px;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item a,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item a {
+  display: block;
+  width: 100%;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item a:hover,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item a:hover {
+  opacity: 0.7;
+  background-color: #fff !important;
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item img,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item img {
+  display: block;
+  width: 100%;
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item .nc3-a-icon,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item .nc3-a-icon {
+  -webkit-box-flex: 0;
+          flex: 0 1 67px;
+  width: 12px;
+  height: 12px;
+}
+[data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item .nc3-a-icon svg,
+[data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item .nc3-a-icon svg {
+  margin-left: auto;
+  margin-right: 0;
+  width: 12px;
+  height: 12px;
+  fill: #fff;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial,
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free {
+    width: calc(50% - 6px);
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial,
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free {
+    width: calc(50% - 3px);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free:not(:first-child) {
+    margin-left: 12px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item.soft-featureClassic__item--free:not(:first-child) {
+    margin-left: 6px;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 759px) {
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__item--ticket,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--ticket {
+    margin-top: 0;
+  }
+}
+@media screen and (min-width: 640px) and (max-width: 979px) {
+  [data-bodytheme="switch"] .soft-featureClassic img.soft-featureClassic__bnr,
+  [data-bodytheme="3ds"] .soft-featureClassic img.soft-featureClassic__bnr {
+    display: none;
+  }
+}
+[data-bodytheme="switch"] .soft-featureClassic img.soft-featureClassic__bnrTab,
+[data-bodytheme="3ds"] .soft-featureClassic img.soft-featureClassic__bnrTab {
+  display: none;
+}
+@media screen and (min-width: 640px) and (max-width: 979px) {
+  [data-bodytheme="switch"] .soft-featureClassic img.soft-featureClassic__bnrTab,
+  [data-bodytheme="3ds"] .soft-featureClassic img.soft-featureClassic__bnrTab {
+    display: block;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .soft-featureClassic {
+    margin: 38px auto;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="switch"] .soft-featureClassic,
+  [data-bodytheme="3ds"] .soft-featureClassic {
+    margin-top: 40px;
+    margin-bottom: 23px;
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__list,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    margin-top: 0;
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__list + .soft-featureClassic__list,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__list + .soft-featureClassic__list {
+    margin-top: 5px;
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--campaign,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--campaign {
+    margin-right: calc(20 / 1536 * 100vw);
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__itemWrap,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__itemWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    width: calc(714 / 1536 * 100vw);
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--trial,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--trial,
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--free,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--free {
+    width: 100%;
+    margin-top: 0;
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--free:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__tabWrap .soft-featureClassic__item--free:not(:first-child) {
+    margin-left: 0;
+    margin-top: calc(20 / 1536 * 100vw);
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right {
+    width: calc(1157 / 1536 * 100vw);
+    margin: 20px auto 0;
+  }
+  [data-bodytheme="switch"] .soft-featureClassic .soft-featureClassic__itemWrap--right:before,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap--right:before {
+    display: none;
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic {
+    margin-top: 38px;
+    margin-bottom: 38px;
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__list {
+    margin-top: 0;
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--campaign {
+    width: calc(714 / 1536 * 100vw);
+    max-width: none;
+    margin-right: calc(20 / 1536 * 100vw);
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__itemWrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    width: calc(554 / 1536 * 100vw);
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item + .soft-featureClassic__itemWrap {
+    margin-left: 0;
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--trial,
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--free {
+    width: 100%;
+    margin-top: 0;
+  }
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--trial:not(:first-child),
+  [data-bodytheme="3ds"] .soft-featureClassic .soft-featureClassic__item--free:not(:first-child) {
+    margin-left: 0;
+    margin-top: calc(20 / 1536 * 100vw);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-featureClassic .soft-featureClassic__tabWrap {
+    display: -webkit-box;
+    display: flex;
+    margin-right: 20px;
+    margin-left: 20px;
+    -webkit-box-align: start;
+            align-items: flex-start;
+  }
+}
+.soft-sortByTitle {
+  visibility: hidden;
+}
+@media screen and (min-width: 760px), print {
+  .soft-sortByTitle {
+    position: relative;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle {
+    padding: 31px 0 32px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-sortByTitle {
+    position: relative;
+    padding: 20px 0 20px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle {
+    position: relative;
+    padding: 0 0 0;
+  }
+}
+.soft-sortByTitle.is-visible {
+  visibility: visible;
+}
+.soft-sortByTitle__input {
+  margin: 0 auto;
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__input {
+    width: 48.392857142857146%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-sortByTitle__input {
+    width: calc(100% - 114px);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-sortByTitle__input .nc3-c-search {
+    margin-bottom: 20px;
+  }
+  .soft-sortByTitle__input .nc3-c-search .nc3-c-search__box svg {
+    top: 22px;
+  }
+  .soft-sortByTitle__input .nc3-c-search .nc3-c-search__box .nc3-c-search__boxText {
+    height: 56px;
+  }
+  .soft-sortByTitle__input .nc3-c-search .nc3-c-search__box .nc3-c-search__boxReset {
+    top: 21px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle__input .nc3-c-search {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .soft-sortByTitle__input .nc3-c-search {
+    display: block !important;
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__input .nc3-as-box__drop.is-active {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle__resultOuter {
+    padding: 67px 0 20px;
+    z-index: 2;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__result {
+    background-image: -webkit-linear-gradient(top, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to bottom, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-size: 1px 4px;
+    position: absolute;
+    right: 182px;
+    padding: 0 11px;
+    min-width: 54px;
+    text-align: center;
+    color: #737373;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__result {
+    top: 48px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-sortByTitle__result {
+    padding-top: 2px;
+    padding-bottom: 3px;
+    top: 29px;
+  }
+}
+[data-tab="recommended"] .soft-sortByTitle__result {
+  display: none;
+}
+@media screen and (min-width: 980px), print {
+  [data-tab="recommended"] .soft-sortByTitle__result {
+    right: 0;
+    padding-right: 0;
+    background-image: none;
+  }
+}
+.soft-sortByTitle__resultNum {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+@media screen and (min-width: 760px), print {
+  .soft-sortByTitle__resultNum {
+    font-size: 14px !important;
+    line-height: 31px;
+  }
+  .soft-sortByTitle__resultNum::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle__resultNum {
+    color: #999;
+  }
+}
+.soft-sortByTitle__resultNum.nc3-as-result__number {
+  padding: 0;
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle__resultNum.nc3-as-result__number {
+    font-size: 11px;
+  }
+  .soft-sortByTitle__resultNum.nc3-as-result__number .nc3-as-result__count {
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__resultText {
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-sortByTitle__sort {
+    top: 48px;
+    right: 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-sortByTitle__sort {
+    margin: -33px 0 0 auto;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-sortByTitle__sort {
+    margin: -48px 0 19px auto;
+  }
+}
+.soft-sortByTitle__pager.nc3-as-pager {
+  margin: 17px 0 0;
+  padding: 0;
+}
+.soft-coming {
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="switch"] .soft-coming {
+    padding: 10px 0;
+  }
+}
+.soft-coming__imgArea {
+  overflow: hidden;
+}
+.soft-coming__img {
+  background-size: cover;
+  overflow: hidden;
+}
+.soft-coming__img > div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0;
+  background-size: cover;
+}
+html[data-device="desktop"] .soft-coming__img > div,
+html[data-device="desktop"] .soft-coming__img > div img {
+  -webkit-transform: scale(1, 1) translate(-50%, -50%);
+          transform: scale(1, 1) translate(-50%, -50%);
+  -webkit-transition: all 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+html[data-device="desktop"] a:hover .soft-coming__img > div,
+html[data-device="desktop"] a:hover .soft-coming__img > div img {
+  -webkit-transform: scale(1.045, 1.045) translate(-50%, -50%);
+          transform: scale(1.045, 1.045) translate(-50%, -50%);
+}
+html[data-device="desktop"][data-browser="ie"] .soft-coming__img > div {
+  background-size: 100% 100%;
+  -webkit-transform: scale(1, 1) translate(-50%, -50%);
+          transform: scale(1, 1) translate(-50%, -50%);
+  -webkit-transition: -webkit-transform 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: -webkit-transform 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: transform 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: transform 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955), -webkit-transform 130ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+html[data-device="desktop"][data-browser="ie"] a:hover .soft-coming__img > div {
+  -webkit-transform: scale(1.0225, 1.0225) translate(-50%, -50%);
+          transform: scale(1.0225, 1.0225) translate(-50%, -50%);
+}
+@media screen and (min-width: 760px), print {
+  #soft-coming__large {
+    margin-top: 42px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  #soft-coming__large {
+    margin-bottom: 42px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large {
+    margin-bottom: 34px;
+    padding: 0 25.260416666666668%;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  #soft-coming__large {
+    margin-bottom: 28px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  #soft-coming__large [data-njs="slider__clip"] {
+    overflow: visible;
+  }
+}
+#soft-coming__large .nc3-js-slider {
+  position: relative;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large .nc3-js-slider__clip {
+    overflow: visible;
+  }
+}
+@media screen and (min-width: 980px), print {
+  #soft-coming__large .nc3-c-slider__controller {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large .nc3-c-slider__controller {
+    margin: 21px 0;
+  }
+}
+@media screen and (min-width: 980px), print {
+  #soft-coming__large .nc3-js-slider__nav {
+    display: none;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  #soft-coming__large .nc3-js-slider__nav {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large .nc3-js-slider__nav {
+    margin: 0 14px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  #soft-coming__large .nc3-js-slider__nav {
+    position: absolute;
+    left: 50%;
+    bottom: 18px;
+    z-index: 10;
+    -webkit-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+  }
+}
+#soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem {
+  height: 4px;
+  background: #d9d9d9;
+  overflow: hidden;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem {
+    width: 28px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  #soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem {
+    width: 21px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  #soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem:not(:last-child) {
+    margin-right: 7px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  #soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem:not(:last-child) {
+    margin-right: 4px;
+  }
+}
+#soft-coming__large .nc3-js-slider__nav .nc3-js-slider__navItem .nc3-js-slider__navItemTimer {
+  height: 4px;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeContainer {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 168px;
+  }
+  #soft-coming__large.is-centering .soft-coming__largeContainer {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem {
+    position: relative;
+    width: calc(33.33333333% - 2px * 2 / 3);
+  }
+  .soft-coming__largeItem:not(:nth-child(3n)) {
+    margin-right: 2px;
+  }
+  .soft-coming__largeItem:nth-child(n + 4) {
+    margin-top: 17px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem {
+    margin-right: 2px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__largeItem {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__largeItem {
+    width: calc(100% * 330 / 375);
+  }
+}
+.soft-coming__largeItem .soft-coming__detail {
+  padding-bottom: 2px;
+  line-height: 1;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__detail {
+    border-left: 5px solid #e60012;
+    margin-top: 12px;
+    padding-left: 8px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__detail {
+    border-left: 4px solid #e60012;
+    margin-top: 8px;
+    padding-left: 7px;
+  }
+}
+.soft-coming__largeItem .soft-coming__title {
+  font-weight: bold;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__title {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__title {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__title:not(:last-child) {
+    padding-right: 7px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__title span {
+    padding: 0 0 8px 14px;
+    font-size: 16px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    line-height: 1.4;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__title span {
+    font-size: 14px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__largeItem .soft-coming__title span {
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+.soft-coming__largeItem .soft-coming__preorder {
+  margin: 5px 8px 0 0;
+  padding: 0 0.5em 0.2em;
+  display: inline-block;
+  background-color: #f2f2f2;
+  color: #3c3c3c;
+  line-height: 17px;
+  font-weight: bold;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__preorder {
+    margin-top: 7px;
+    padding: 0 10px;
+    vertical-align: middle;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__preorder {
+    margin-right: 16px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__largeItem .soft-coming__preorder {
+    margin-right: 6px;
+  }
+}
+.soft-coming__largeItem .soft-coming__preorder span {
+  vertical-align: 0.1em;
+  line-height: 1;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__preorder span {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__preorder span {
+    font-size: 10px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    vertical-align: 2px;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    vertical-align: 0.25em;
+  }
+}
+.soft-coming__largeItem .soft-coming__date {
+  font-family: 'Roboto', sans-serif;
+  display: inline-block;
+  font-weight: bold;
+  -webkit-font-feature-settings: "palt";
+          font-feature-settings: "palt";
+  color: #8c8c8c;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__date {
+    -webkit-box-flex: 0;
+            flex: 0 0 auto;
+    font-size: 11px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 2px;
+    vertical-align: middle;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__date {
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    line-height: 1;
+    padding-top: 9px;
+    vertical-align: -0.2em;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__date {
+    margin-top: 6px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem .soft-coming__date .nc3-a-unitSizing {
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem .soft-coming__date .nc3-a-unitSizing {
+    display: inline-block;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__largeItem:hover .soft-coming__detail {
+    opacity: 1;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__largeItem[data-dir="center"] .soft-coming__detail {
+    opacity: 1;
+  }
+}
+.soft-coming__largeItem:hover .soft-coming__title {
+  color: #e60012;
+}
+.soft-coming__largeItem:hover[data-theme="wiiu"] .soft-coming__title {
+  color: #0096c8;
+}
+.soft-coming__largeItem:hover[data-theme="3ds"] .soft-coming__title {
+  color: #ce181e;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallScrollerInner {
+    margin-bottom: 26px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallScrollerInner {
+    padding: 0 0 8px;
+  }
+}
+.soft-coming__smallScrollerClip {
+  overflow: visible;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallScrollerContainer {
+    min-height: 388px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallScrollerContainer [data-njs="scroller__ghost"] {
+    padding-right: 42px;
+  }
+}
+.soft-coming__smallItemCol {
+  border-bottom: 1px solid #e6e6e6;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItemCol {
+    width: 541px;
+    margin-right: 36px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItemCol {
+    width: 480px;
+    margin-right: 24px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItemCol {
+    width: 325px;
+    margin-right: 12px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItemCol:last-child {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItemCol:last-child {
+    margin-right: 14px;
+  }
+}
+.soft-coming__smallItem {
+  position: relative;
+  box-sizing: border-box;
+  border-top: 1px solid #e6e6e6;
+}
+@media screen and (min-width: 760px), print {
+  .soft-coming__smallItem {
+    height: 127px;
+    padding: 17px 0 0 6px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem {
+    height: 116px;
+    padding: 16px 0 0 6px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem {
+    height: 88px;
+    padding-top: 14px;
+  }
+}
+.soft-coming__smallItem > a {
+  font-size: 0;
+}
+.soft-coming__smallItem .soft-coming__img {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__img {
+    width: 168px;
+    margin-right: 18px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__img {
+    margin-right: 14px;
+    width: 150px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem .soft-coming__img {
+    margin-right: 8px;
+    width: 105px;
+  }
+}
+.soft-coming__smallItem .soft-coming__detail {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 760px), print {
+  .soft-coming__smallItem .soft-coming__detail {
+    width: calc(100% - 168px - 18px);
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__detail {
+    padding: 4px 32px 0 0;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__detail {
+    padding-right: 46px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem .soft-coming__detail {
+    width: calc(100% - 105px - 14px - 24px);
+  }
+}
+.soft-coming__smallItem .soft-coming__date {
+  font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+}
+html:not(.alps-os-android) .soft-coming__smallItem .soft-coming__date {
+  font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__date {
+    font-size: 12px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__date {
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__date .nc3-a-unitSizing {
+    font-size: 11px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__date .nc3-a-unitSizing {
+    display: inline-block;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+.soft-coming__smallItem .soft-coming__preorder {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.2em 0.5em;
+  display: inline-block;
+  background-color: #f2f2f2;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__preorder {
+    padding: 3px 0;
+  }
+}
+.soft-coming__smallItem .soft-coming__preorder span {
+  display: block;
+  font-weight: bold;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__preorder span {
+    font-size: 11px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__preorder span {
+    font-size: 10px;
+    line-height: 1;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+  }
+}
+.soft-coming__smallItem .soft-coming__title {
+  max-height: 2.8em;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  text-overflow: ellipsis;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__title {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    padding-top: 7px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__title {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    padding-top: 5px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem .soft-coming__title {
+    font-size: 11px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    padding-top: 4px;
+  }
+}
+.soft-coming__smallItem .soft-coming__maker {
+  color: #8c8c8c;
+  font-weight: normal;
+}
+@media screen and (min-width: 760px), print {
+  .soft-coming__smallItem .soft-coming__maker {
+    font-size: 10px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .soft-coming__maker {
+    padding-top: 10px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem .soft-coming__maker {
+    padding-top: 8px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem .soft-coming__maker {
+    font-size: 8px;
+    margin-top: -0.65em;
+    margin-bottom: -0.35em;
+    padding-top: 8px;
+  }
+}
+.soft-coming__smallItem .soft-coming__memo {
+  color: #8c8c8c;
+  font-weight: normal;
+  font-size: 10px;
+  margin-top: -0.65em;
+  margin-bottom: -0.35em;
+  padding-top: 7px;
+}
+.soft-coming__smallItem .soft-coming__memo:empty {
+  display: none;
+}
+.soft-coming__smallItem .soft-coming__memo strong {
+  font-weight: bold;
+}
+.soft-coming__smallItem .nc3-a-icon {
+  position: absolute;
+  right: 8px;
+  left: auto;
+}
+@media screen and (min-width: 980px), print {
+  .soft-coming__smallItem .nc3-a-icon {
+    top: calc(50% - 7px);
+    width: 14px;
+    height: 14px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-coming__smallItem .nc3-a-icon {
+    top: calc(50% - 6px);
+    width: 12px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__smallItem .nc3-a-icon {
+    top: calc(50% - 4.5px);
+    right: 0;
+    width: 9px;
+    height: 9px;
+  }
+}
+.soft-coming__smallItem[data-theme="switch"] .soft-coming__date,
+.soft-coming__smallItem[data-theme="switch"] .nc3-a-icon {
+  color: #8c8c8c;
+}
+.soft-coming__smallItem[data-theme="switch"] .soft-coming__date svg,
+.soft-coming__smallItem[data-theme="switch"] .nc3-a-icon svg {
+  fill: #e60012;
+}
+.soft-coming__smallItem[data-theme="wiiu"] .soft-coming__date,
+.soft-coming__smallItem[data-theme="wiiu"] .nc3-a-icon {
+  color: #0096c8;
+}
+.soft-coming__smallItem[data-theme="wiiu"] .soft-coming__date svg,
+.soft-coming__smallItem[data-theme="wiiu"] .nc3-a-icon svg {
+  fill: #0096c8;
+}
+.soft-coming__smallItem[data-theme="3ds"] .soft-coming__date,
+.soft-coming__smallItem[data-theme="3ds"] .nc3-a-icon {
+  color: #ce181e;
+}
+.soft-coming__smallItem[data-theme="3ds"] .soft-coming__date svg,
+.soft-coming__smallItem[data-theme="3ds"] .nc3-a-icon svg {
+  fill: #ce181e;
+}
+.soft-coming__smallItem:hover[data-theme="switch"] .soft-coming__title {
+  color: #e60012;
+}
+.soft-coming__smallItem:hover[data-theme="wiiu"] .soft-coming__title {
+  color: #0096c8;
+}
+.soft-coming__smallItem:hover[data-theme="3ds"] .soft-coming__title {
+  color: #ce181e;
+}
+.soft-coming__smallScroller.js-disabled .soft-coming__smallScrollerPager {
+  display: none;
+}
+.soft-coming__bt {
+  text-align: center;
+}
+@media screen and (min-width: 760px), print {
+  .soft-coming__bt {
+    margin-top: 38px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-coming__bt {
+    margin-top: 20px;
+  }
+}
+[data-bodytheme="wiiu"] .soft-coming__bt .nc3-a-button .nc3-a-icon:not(:last-child) {
+  top: 1px;
+  position: relative;
+}
+#soft-rankingNew {
+  overflow: hidden;
+}
+@media screen and (min-width: 760px), print {
+  #soft-rankingNew {
+    margin-top: 42px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  #soft-rankingNew {
+    margin-bottom: -42px;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .soft-rankingSlider {
+    padding-top: 31px;
+  }
+}
+.soft-rankingSlider__clipWrap {
+  overflow: visible;
+}
+@media screen and (max-width: 979.98px) {
+  .soft-rankingSlider__innerW {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+}
+.soft-rankingSlider__clip {
+  overflow: visible;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-rankingSlider__clip {
+    overflow: scroll;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-rankingSlider__container {
+    min-height: 295px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-rankingSlider__container {
+    -webkit-transform: translate3d(0, 0, 0) !important;
+            transform: translate3d(0, 0, 0) !important;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-rankingSlider__container [data-njs="scroller__ghost"] {
+    padding-right: 42px;
+  }
+}
+.soft-rankingSlider__item {
+  float: left;
+  position: absolute;
+}
+@media screen and (min-width: 760px), print {
+  .soft-rankingSlider__item {
+    width: 220px;
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-rankingSlider__item:last-child {
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-rankingSlider__item {
+    width: 205px;
+    margin-right: 14px;
+  }
+  .soft-rankingSlider__item:last-child {
+    margin-right: 0;
+    padding-right: 14px;
+    box-sizing: content-box;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-rankingSlider__pager {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-rankingSlider__prevBtn,
+  .soft-rankingSlider__nextBtn {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .soft-rankingSlider__caption {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .soft-rankingSlider__caption {
+    margin-top: 11px;
+    margin-bottom: 42px;
+    text-align: right;
+  }
+}
+.softIndex-linkHowtodl {
+  text-align: right;
+}
+@media screen and (min-width: 980px), print {
+  .softIndex-linkHowtodl {
+    margin-top: -49px;
+    padding: 0 0 16px;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .softIndex-linkHowtodl {
+    margin-top: -49px;
+    padding: 0 20px 16px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-linkHowtodl {
+    margin-top: -29px;
+    padding: 0 14px 19px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-linkHowtodl a {
+    padding-left: 19px;
+  }
+}
+.softIndex-linkHowtodl a .nc3-a-icon svg {
+  color: #999;
+  -webkit-transition: fill 150ms linear;
+  transition: fill 150ms linear;
+}
+.softIndex-linkHowtodl a:hover svg {
+  color: #e60012;
+}
+html[data-device="desktop"] .softIndex-linkHowtodl a > span {
+  vertical-align: text-bottom;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-linkHowtodl a.nc3-a-textLink--iconLarge .nc3-a-icon {
+    margin-top: 0;
+  }
+}
+.softIndex-ageTarget {
+  position: relative;
+  border: solid 4px #e6e6e6;
+  padding: 43px 48px 15px 44px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget {
+    border: solid 2px #e6e6e6;
+    padding: 32px 28px 10px 28px;
+  }
+}
+.softIndex-ageTarget::before {
+  position: absolute;
+  height: 4px;
+  top: -4px;
+  left: 44px;
+  content: '';
+  background-color: #d21d0e;
+  width: 214px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget::before {
+    height: 2px;
+    width: 51.873198847262245%;
+    top: -2px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__heading {
+    text-align: center;
+  }
+}
+.softIndex-ageTarget__text {
+  margin-top: 18px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__text {
+    margin-top: 27px;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__text .nc3-a-text {
+    font-size: 14px;
+    line-height: 1.8;
+    margin-top: -0.52em;
+    margin-bottom: -0.28em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__text .nc3-a-text {
+    font-size: 12px;
+    line-height: 1.9;
+    margin-top: -0.585em;
+    margin-bottom: -0.315em;
+  }
+}
+.softIndex-ageTarget__ratings {
+  margin-top: 36px;
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__ratings {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__ratings {
+    margin-top: 23px;
+  }
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__rating {
+    -webkit-box-flex: 1;
+            flex: 1 1 auto;
+  }
+  .softIndex-ageTarget__rating:nth-of-type(even) {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__rating + .softIndex-ageTarget__rating {
+    margin-top: 25px;
+  }
+}
+.softIndex-ageTarget__ratingHead {
+  text-align: center;
+  width: 100%;
+  padding: 7px 10px;
+  background-color: #e6e6e6;
+  font-weight: bold;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__ratingHead {
+    padding: 4px 10px;
+    font-size: 12px;
+  }
+}
+.softIndex-ageTarget__icons {
+  display: -webkit-box;
+  display: flex;
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__icons {
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+    margin-right: -42px;
+  }
+  .softIndex-ageTarget__icons--iarc {
+    margin-right: -38.9px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__icons {
+    -webkit-box-pack: center;
+            justify-content: center;
+    margin-right: -6.933333333333333vw;
+  }
+}
+.softIndex-ageTarget__columnWrap {
+  display: -webkit-box;
+  display: flex;
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__columnWrap {
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__columnWrap {
+    margin-top: 16px;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+.softIndex-ageTarget__iconWrap {
+  position: relative;
+}
+@media screen and (min-width: 760px), print {
+  .softIndex-ageTarget__iconWrap {
+    margin-right: 42px;
+    margin-top: 15px;
+  }
+  .softIndex-ageTarget__rating--iarc .softIndex-ageTarget__iconWrap {
+    margin-right: 38.9px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__iconWrap {
+    margin-right: 6.933333333333333vw;
+  }
+}
+.softIndex-ageTarget__iconWrap p {
+  font-size: 12px;
+  line-height: 1.4;
+  margin-top: -0.26em;
+  margin-bottom: -0.14em;
+  color: #8c8c8c;
+  text-align: center;
+  margin-top: 9.3px;
+  margin-left: -3em;
+  margin-right: -3em;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__iconWrap p {
+    font-size: 7.5px;
+    line-height: 1.4;
+    margin-top: -0.26em;
+    margin-bottom: -0.14em;
+    margin-top: 8px;
+  }
+}
+.softIndex-ageTarget__icon {
+  display: block;
+}
+.softIndex-ageTarget__icon--cero {
+  width: 54px;
+  height: 68.7px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__icon--cero {
+    width: 33px;
+    height: 42px;
+  }
+}
+.softIndex-ageTarget__icon--iarc {
+  width: 57.1px;
+  height: 68.7px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__icon--iarc {
+    width: 33px;
+    height: 39.7px;
+  }
+}
+.softIndex-ageTarget__foot {
+  border-top: 1px solid #e6e6e6;
+  text-align: center;
+  margin-top: 31px;
+  padding-top: 15px;
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__foot {
+    margin-top: 28px;
+    padding-top: 6px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .softIndex-ageTarget__foot .nc3-a-icon {
+    margin-right: 11px;
+    margin-left: -6px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .local-caption-toggleparent--sp .nc3-a-caption {
+    font-size: 9px;
+  }
+}
+.local-relation__image--online,
+.local-relation__image--nci
+ {
+  text-align: center;
+}
+@media screen and (min-width: 760px), print {
+  .local-relation__image--online img {
+    max-width: 188px;
+  }
+  .local-relation__image--nci img {
+    max-width: 170px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .local-relation__image--online img {
+    width: 127px;
+  }
+  .local-relation__image--nci img {
+    width: 116px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .local-relation__image--mimamori img {
+    text-align: center;
+    width: 188px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  .local-relation__image--howtodl img {
+    text-align: center;
+    width: 182px;
+  }
+}
+.softIndex-footNavWrapper .nc3-c-naviHard__tab:hover:before,
+.softIndex-footNavWrapper .nc3-c-naviHard__tab.is-current:before {
+  background-color: #e60012;
+}
+.nc3-c-naviHard--3ds .softIndex-footNavWrapper .nc3-c-naviHard__tab:hover:before,
+.nc3-c-naviHard--3ds .softIndex-footNavWrapper .nc3-c-naviHard__tab.is-current:before {
+  background-color: #e60012;
+}
+.softIndex-footNavWrapper .nc3-c-naviHard--3ds .nc3-c-naviHard__arrow {
+  fill: #e60012;
+}
+.softIndex-footNavWrapper .nc3-a-button div {
+  -webkit-box-align: center;
+          align-items: center;
+}
+@media screen and (min-width: 760px), print {
+  .local-soft-ranking {
+    padding-bottom: 35px;
+  }
+}
+@media screen and (min-width: 1200px), print {
+  .soft-topBanner-largeSale .soft-topBanner__itemStatusOnSale:before {
+    left: 0;
+    -webkit-transform: translateY(-2px);
+            transform: translateY(-2px);
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-topBanner-largeSale .soft-topBanner__itemStatusOnSale:before {
+    left: 0;
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .soft-topBanner-largeSale .soft-topBanner__itemStatusOnSale:before {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner-largeSale .soft-topBanner__itemStatusOnSale:before {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .soft-tabSwitcher__item:nth-of-type(2),
+  [data-bodytheme="wiiu"] .soft-tabSwitcher__item:nth-of-type(2) {
+    position: relative;
+    padding-right: 20px;
+    margin-right: 20px;
+  }
+  [data-bodytheme="3ds"] .soft-tabSwitcher__item:nth-of-type(2)::after,
+  [data-bodytheme="wiiu"] .soft-tabSwitcher__item:nth-of-type(2)::after {
+    background-image: -webkit-linear-gradient(top, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to bottom, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-size: 1px 4px;
+    right: 0;
+    top: 2px;
+    bottom: 2px;
+    content: "";
+    display: block;
+    width: 1px;
+    position: absolute;
+  }
+  [data-bodytheme="3ds"] .soft-tabSwitcher__item:nth-of-type(3)::after,
+  [data-bodytheme="wiiu"] .soft-tabSwitcher__item:nth-of-type(3)::after {
+    background: none;
+  }
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .local-pc,
+  [data-bodytheme="wiiu"] .local-pc {
+    display: block;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .local-pc,
+  [data-bodytheme="wiiu"] .local-pc {
+    display: none;
+  }
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .local-sp,
+  [data-bodytheme="wiiu"] .local-sp {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .local-sp,
+  [data-bodytheme="wiiu"] .local-sp {
+    display: block;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select-accordion,
+  [data-bodytheme="wiiu"] .nc3-as-select-accordion {
+    margin-top: 15px;
+    display: none;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .local-vc-hard,
+  [data-bodytheme="wiiu"] .local-vc-hard {
+    display: -webkit-box;
+    display: flex;
+    width: 100%;
+    -webkit-column-gap: 10px;
+            column-gap: 10px;
+  }
+  [data-bodytheme="3ds"] .local-vc-hard > li,
+  [data-bodytheme="wiiu"] .local-vc-hard > li {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .nc3-c-checkboxList__content,
+  [data-bodytheme="wiiu"] .nc3-c-checkboxList__content {
+    padding-top: 10px;
+  }
+}
+[data-bodytheme="3ds"] .soft-sectionHeader .nc3-as-select__item:hover,
+[data-bodytheme="wiiu"] .soft-sectionHeader .nc3-as-select__item:hover,
+[data-bodytheme="3ds"] .soft-sectionHeader .nc3-as-select__item.is-active,
+[data-bodytheme="wiiu"] .soft-sectionHeader .nc3-as-select__item.is-active {
+  color: #fff;
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc {
+    margin-bottom: -10px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc {
+    margin: 0;
+    border-top: 0;
+    background: transparent;
+    position: relative !important;
+    top: 0 !important;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc ul,
+[data-bodytheme="wiiu"] .nc3-as-select--vc ul {
+  font-size: 0;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+            justify-content: space-between;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc ul li,
+[data-bodytheme="wiiu"] .nc3-as-select--vc ul li {
+  vertical-align: middle;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul li,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul li {
+    display: inline-block;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul li,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul li {
+    margin-bottom: 28px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul li,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul li {
+    display: contents;
+  }
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul li:first-child,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul li:first-child {
+    margin-right: 16px;
+    padding-right: 16px;
+    background-image: -webkit-linear-gradient(top, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-image: linear-gradient(to bottom, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+    background-repeat: repeat-y;
+    background-position: right top;
+    background-size: 1px 4px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc ul li:first-child,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc ul li:first-child {
+    position: relative;
+    width: 100%;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc ul li:last-child .nc3-as-select__item,
+[data-bodytheme="wiiu"] .nc3-as-select--vc ul li:last-child .nc3-as-select__item {
+  margin-right: 0;
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item,
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item {
+  height: 21px;
+  font-size: 0;
+  line-height: 21px;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media screen and (min-width: 980px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item {
+    height: 30px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item {
+    width: calc(50vw - 31px);
+    height: 42px;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"] {
+  background-image: url("../../../search/img/icon-hard-01.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"] {
+    width: 66px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="fc"] {
+    background-size: 68px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"] {
+  background-image: url("../../../search/img/icon-hard-02.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"] {
+    width: 106px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="sfc"] {
+    background-size: 98px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"] {
+  background-image: url("../../../search/img/icon-hard-03.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"] {
+    width: 63px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gb"] {
+    background-size: 64px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"] {
+  background-image: url("../../../search/img/icon-hard-04.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"] {
+    width: 84px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gbc"] {
+    background-size: 95px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"] {
+  background-image: url("../../../search/img/icon-hard-05.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"] {
+    width: 63px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gg"] {
+    background-size: 63px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"] {
+  background-image: url("../../../search/img/icon-hard-06.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"] {
+    width: 54px;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="pce"] {
+    background-size: 54px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"] {
+  background-image: url("../../../search/img/icon-hard-07.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"] {
+    width: 100px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="gba"] {
+    background-size: 100px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"] {
+  background-image: url("../../../search/img/icon-hard-08.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"] {
+    width: 76px;
+    background-position-y: 8px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="n64"] {
+    background-size: 76px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"] {
+  background-image: url("../../../search/img/icon-hard-09.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"] {
+    width: 83px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="ds"] {
+    background-size: 83px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"],
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"] {
+  background-image: url("../../../search/img/icon-hard-10.jpg");
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"] {
+    width: 42px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"],
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item[data-value="msx"] {
+    background-size: 42px auto;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item--all,
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item--all {
+  height: auto;
+  margin-right: 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__item--all,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__item--all {
+    width: 100%;
+    border-radius: 2px;
+    background-color: #fff;
+    font-size: 12px;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__current,
+[data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__current {
+  bottom: -4px;
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .nc3-as-select--vc .nc3-as-select__current,
+  [data-bodytheme="wiiu"] .nc3-as-select--vc .nc3-as-select__current {
+    display: none;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .softIndex-lineup[data-tab="vc"] .nc3-as-select-accordion,
+  [data-bodytheme="wiiu"] .softIndex-lineup[data-tab="vc"] .nc3-as-select-accordion {
+    display: block;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  [data-bodytheme="3ds"] .soft-sortByTitle__resultOuter,
+  [data-bodytheme="wiiu"] .soft-sortByTitle__resultOuter {
+    padding: 20px 0;
+  }
+}
+[data-bodytheme="3ds"] .nc3-as-select.is-ui-hidden,
+[data-bodytheme="wiiu"] .nc3-as-select.is-ui-hidden {
+  display: none;
+}
+[data-bodytheme="3ds"] .soft-sectionHeader {
+  border-width: 1px 0;
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .local-tabSwitcher {
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="3ds"] .nc3-c-tabSwitcher--3ds {
+    top: 0 !important;
+    margin-top: 15px;
+  }
+}
+[data-bodytheme="3ds"] .nc3-c-tabSwitcher--3ds li {
+  width: calc((100% - 8px) / 2) !important;
+}
+[data-bodytheme="3ds"] .nc3-as-select__item:hover,
+[data-bodytheme="3ds"] .nc3-as-select__item.is-active {
+  color: #ce181e;
+}
+[data-bodytheme="3ds"] .nc3-as-select__item:hover:after,
+[data-bodytheme="3ds"] .nc3-as-select__item.is-active:after {
+  background-color: #ce181e;
+}
+[data-bodytheme="3ds"] .nc3-c-dropdown__opener .nc3-a-icon {
+  fill: #ce181e;
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="3ds"] .nc3-c-dropdown__opener:hover {
+    border-color: #ce181e;
+  }
+  [data-bodytheme="3ds"] .nc3-c-dropdown__opener:hover span {
+    color: #ce181e;
+  }
+}
+[data-bodytheme="3ds"] .nc3-c-dropdown__float dt {
+  border-left: 5px solid #ce181e;
+}
+[data-bodytheme="3ds"] .nc3-c-dropdown__item.is-selected,
+[data-bodytheme="3ds"] .nc3-c-dropdown__item:hover {
+  background-color: #ce181e;
+  color: #fff;
+}
+[data-bodytheme="3ds"] .nc3-c-dropdown__item.is-selected::after,
+[data-bodytheme="3ds"] .nc3-c-dropdown__item:hover::after {
+  background-color: #ce181e;
+}
+[data-bodytheme="3ds"] .nc3-as-select-accordion .nc3-a-buttonAccordion {
+  color: #ce181e;
+}
+[data-bodytheme="wiiu"] .nc3-c-tabSwitcher--wiiu li {
+  width: calc((100% - 8px) / 2) !important;
+}
+[data-bodytheme="wiiu"] .nc3-c-tabSwitcher--wiiu li:nth-of-type(3) {
+  padding-right: 4px;
+  margin-right: 0;
+}
+[data-bodytheme="wiiu"] .nc3-as-select__item:hover,
+[data-bodytheme="wiiu"] .nc3-as-select__item.is-active {
+  color: #0096c8;
+}
+[data-bodytheme="wiiu"] .nc3-as-select__item:hover:after,
+[data-bodytheme="wiiu"] .nc3-as-select__item.is-active:after {
+  background-color: #0096c8;
+}
+[data-bodytheme="wiiu"] .nc3-c-dropdown__opener .nc3-a-icon {
+  fill: #0096c8;
+}
+@media screen and (min-width: 760px), print {
+  [data-bodytheme="wiiu"] .nc3-c-dropdown__opener:hover {
+    border-color: #0096c8;
+  }
+  [data-bodytheme="wiiu"] .nc3-c-dropdown__opener:hover span {
+    color: #0096c8;
+  }
+}
+[data-bodytheme="wiiu"] .nc3-c-dropdown__float dt {
+  border-left: 5px solid #0096c8;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .nc3-c-dropdown__float.local-dropdown__float {
+    top: 20px;
+  }
+}
+[data-bodytheme="wiiu"] .nc3-c-dropdown__item.is-selected,
+[data-bodytheme="wiiu"] .nc3-c-dropdown__item:hover {
+  background-color: #0096c8;
+  color: #fff;
+}
+[data-bodytheme="wiiu"] .nc3-c-dropdown__item.is-selected::after,
+[data-bodytheme="wiiu"] .nc3-c-dropdown__item:hover::after {
+  background-color: #0096c8;
+}
+[data-bodytheme="wiiu"] .nc3-as-select-accordion .nc3-a-buttonAccordion {
+  color: #0096c8;
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .nc3-a-buttonAccordion span {
+    margin-top: -0.3em;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .nc3-c-dropdown__opener.local-dropdown__opener--indexAll {
+    padding: 2px 7px 2px 10px;
+  }
+}
+@media screen and (max-width: 759.98px) {
+  [data-bodytheme="wiiu"] .soft-sortByTitle__resultOuter.local-soft-sortByTitle__indexAll {
+    padding: 20px 0 24px;
+  }
+}
+.local-switch-search {
+  display: block;
+  line-height: 62px;
+  height: 62px;
+  color: #8c8c8c;
+  position: unset;
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+}
+.localTopSearchBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+@media screen and (min-width: 760px) and (max-width: 979.98px) {
+  .localTopSearchBox {
+    display: none;
+  }
+}
+.localSearchContainer {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.localSearchContainer .soft-main-stickySearch__drop {
+  z-index: 10;
+  border-top: 1px solid #e6e6e6;
+}
+.localSearchText {
+  display: -webkit-box;
+  display: flex;
+  box-shadow: none;
+}
+.localSearchTextBox {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+  border: none;
+}
+.localSearchTextBox .localSearchTextBoxInner {
+  padding-right: 15px;
+}
+.localSearchTextCancel {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 61px;
+  line-height: 61px;
+  background-color: #fff;
+  padding: 0 14px;
+}
+.localSearchTextCancel:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 1px;
+  background-image: -webkit-linear-gradient(top, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+  background-image: linear-gradient(to bottom, #b4b4b4, #b4b4b4 1px, transparent 1px, transparent 3px);
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-size: 1px 4px;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+}
+.localSearchTextCancelButton {
+  background-color: #e6e6e6;
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 2px;
+  color: #b4b4b4;
+  font-size: 12px;
+  font-weight: 600;
+}
+.localSearchDropList {
+  border: none;
+}
+.localAsBoxDropListContainer {
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.localAsBoxDropListContainer .nc3-as-box__dropListItem {
+  width: calc(50% - 14px);
+  margin-right: 14px !important;
+  padding-right: 0 !important;
+  min-width: unset !important;
+}
+.nc3-c-search__dropList[data-name="search_main_soft_sticky"] {
+  padding: 20px 0 3px;
+  max-height: calc(100% - 135px);
+}
+.nc3-c-search__dropList[data-name="search_main_soft_sticky"] .nc3-c-search__dropListContainer {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 14px;
+  padding-bottom: 14px;
+}
+.soft-main-newStickySearch__wrap {
+  visibility: hidden;
+  opacity: 0;
+  position: fixed;
+  z-index: 999999;
+  background-color: rgba(0,0,0,0.5);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+}
+.soft-main-newStickySearch__wrap .soft-main-newStickySearch__height {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  height: 100%;
+}
+.soft-main-newStickySearch__wrap .soft-main-newStickySearch__box {
+  padding-top: 61px;
+}
+.soft-main-newStickySearch__wrap .nc3-js-uiplaceholder {
+  max-height: calc(100vh - 181px);
+  padding-bottom: 78px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.soft-main-newStickySearch__wrap.is-btnHide .nc3-js-uiplaceholder {
+  max-height: calc(100vh - 103px);
+}
+.soft-main-newStickySearch__wrap.is-btnHide .localSearchBox {
+  display: none;
+}
+.soft-main-newStickySearch__wrap .soft-search__itemGhost {
+  padding-bottom: 38px;
+}
+.soft-main-newStickySearch__wrap .soft-search__itemGhost .soft-search__itemGhostThumb {
+  position: relative;
+}
+.soft-main-newStickySearch__wrap .soft-search__itemGhost .soft-search__itemGhostThumb:before {
+  content: '';
+  display: block;
+  padding-bottom: 56.25%;
+}
+.soft-main-newStickySearch__wrap .nc3-c-search__text {
+  border: unset;
+}
+.soft-main-newStickySearch__wrap #soft-search,
+.soft-main-newStickySearch__wrap .nc3-l-innerWidth {
+  padding: 0;
+}
+.soft-main-newStickySearch__wrap .nc3-js-uiplaceholder {
+  background-color: #fff;
+  padding: 21px 14px;
+}
+.soft-main-newStickySearch__wrap .soft-sortByTitle {
+  visibility: hidden;
+  opacity: 0;
+}
+.soft-main-newStickySearch__wrap .nc3-c-search {
+  display: block !important;
+}
+.soft-main-newStickySearch__wrap input::-webkit-input-placeholder {
+  font-size: 14px !important;
+}
+.soft-main-newStickySearch__wrap input::placeholder {
+  font-size: 14px !important;
+}
+.soft-main-newStickySearch__wrap .nc3-c-search__box {
+  height: 61px;
+}
+.soft-main-newStickySearch__wrap .nc3-c-search__boxText {
+  font-size: 14px;
+  -webkit-transform: scale(1) !important;
+          transform: scale(1) !important;
+}
+.soft-main-newStickySearch__wrap .soft-main-stickySearch__textWrap {
+  height: 61px;
+  z-index: 9;
+  border-bottom: unset;
+}
+.soft-main-newStickySearch__wrap .localSearchBox {
+  display: block;
+  width: 100%;
+  padding: 1px 14px 13px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.soft-main-newStickySearch__wrap .localSearchMore {
+  position: relative;
+  display: block;
+  width: 100%;
+  background-color: #e60012;
+  border: none;
+  border-radius: 2px;
+  margin-top: 20px;
+}
+.soft-main-newStickySearch__wrap .localSearchMore:before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -20px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+.soft-main-newStickySearch__wrap .localSearchMore .localSearchMoreInner {
+  width: -webkit-fit-content;
+  width: fit-content;
+  margin: 15px auto 11px auto;
+}
+.soft-main-newStickySearch__wrap .localSearchMore .nc3-a-icon {
+  height: 13px;
+}
+.soft-main-newStickySearch__wrap .localSearchMoreTextContainer {
+  -webkit-box-align: center !important;
+          align-items: center !important;
+}
+.soft-main-newStickySearch__wrap .localSearchMoreTextContainer .localSearchMoreText {
+  font-size: 12px;
+}
+.soft-main-newStickySearch__wrap .nc3-c-softCard__main {
+  padding-bottom: 18px;
+}
+.soft-main-newStickySearch__wrap .softIndex-lineup {
+  padding-bottom: 78px;
+}
+.soft-main-newStickySearch__wrap.is-searching {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: opacity 200ms linear;
+  transition: opacity 200ms linear;
+}
+.soft-main-newStickySearch__wrap.is-searching .soft-sortByTitle {
+  visibility: visible;
+  opacity: 1;
+  position: fixed;
+  display: -webkit-box;
+  display: flex;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 61px;
+  background-color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+}
+.soft-main-newStickySearch__wrap.is-searching .soft-sortByTitle .soft-sortByTitle__input {
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+.soft-main-newStickySearch__wrap.is-searching .localSearchCloseArea {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+          flex-grow: 1;
+}
+.soft-topBanner__itemTags {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+}
+.soft-main-largeBanner .soft-topBanner__itemTags {
+  -webkit-box-align: center;
+          align-items: center;
+}
+@media screen and (min-width: 980px), print {
+  .soft-main-largeBanner .soft-topBanner__itemTags {
+    height: calc((30 / 1440) * 100vw);
+  }
+}
+@media screen and (min-width: 1200px), print {
+  .soft-main-largeBanner .soft-topBanner__itemTags {
+    height: 30px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemTags {
+    display: none;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemTags.itemTags__true {
+    -webkit-transform: translateY(1px);
+            transform: translateY(1px);
+  }
+}
+.soft-topBanner__itemTag {
+  width: calc((97 / 1440) * 100vw) !important;
+  height: calc((22 / 1440) * 100vw);
+  margin-right: calc((10 / 1440) * 100vw);
+  max-width: 97px;
+  max-height: 22px;
+  object-fit: cover;
+}
+@media screen and (min-width: 1200px), print {
+  .soft-topBanner__itemTag {
+    margin-right: 10px;
+  }
+}
+.soft-topBanner__itemSmallTags {
+  display: -webkit-box;
+  display: flex;
+}
+@media screen and (min-width: 1800px) {
+  .soft-topBanner__item-3 .soft-topBanner__itemSmallTags {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: row !important;
+    position: relative !important;
+    left: unset !important;
+    bottom: unset !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__item-2 .soft-topBanner__itemSmallTags,
+  .soft-topBanner__item-1 .soft-topBanner__itemSmallTags {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+            flex-direction: row !important;
+    position: relative !important;
+    left: unset !important;
+    bottom: unset !important;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemSmallTags {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    row-gap: 3px;
+    position: absolute;
+    left: 0;
+    bottom: calc((1 / 1440) * 100vw);
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemSmallTags {
+    bottom: 1px;
+  }
+}
+@media screen and (min-width: 980px) and (max-width: 1199.98px) {
+  .soft-topBanner__itemSmallTags {
+    bottom: 0;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemSmallTags {
+    display: none;
+  }
+}
+.soft-topBanner__itemStatus__largeText {
+  line-height: 1;
+}
+@media screen and (min-width: 1800px) {
+  .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSale__text:not(:first-child) {
+    padding-left: 5px !important;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSaleDate,
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSale__text {
+    padding-left: calc((110 / 1440) * 100vw);
+    line-height: calc((21 / 1440) * 100vw);
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSaleDate,
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSale__text {
+    padding-left: 110px;
+    line-height: 17px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSaleDate,
+  .soft-topBanner__itemSmall .soft-topBanner__item-3 .soft-topBanner__itemStatusOnSale__text {
+    line-height: unset;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSale__text:not(:first-child),
+  .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSale__text:not(:first-child) {
+    padding-left: 5px !important;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSale__text:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSale__text:not(:first-child) {
+    padding-left: calc((110 / 1440) * 100vw);
+    line-height: calc((21 / 1440) * 100vw);
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSale__text:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSale__text:not(:first-child) {
+    padding-left: 110px;
+    line-height: 17px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-2 .soft-topBanner__itemStatusOnSale__text:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSaleDate:not(:first-child),
+  .soft-topBanner__itemSmall .soft-topBanner__item-1 .soft-topBanner__itemStatusOnSale__text:not(:first-child) {
+    line-height: 0;
+  }
+}
+.soft-topBanner__itemStatusOnSaleDate + .soft-topBanner__itemStatusOnSale__text {
+  flex-shrink: 0;
+  padding-left: 0 !important;
+}
+.soft-topBanner__itemStatusOnSale__text {
+  flex-shrink: 0;
+  font-size: calc((16 / 1440) * 100vw);
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemStatusOnSale__text {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSale__text {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 979.98px) {
+  .soft-topBanner__itemStatusOnSale {
+    position: relative;
+    padding: 0 5px;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemSmallTag {
+    width: calc((97 / 1440) * 100vw) !important;
+    height: calc((21 / 1440) * 100vw) !important;
+    margin-right: calc((5 / 1440) * 100vw);
+    object-fit: contain !important;
+  }
+}
+@media screen and (min-width: 1440px), print {
+  .soft-topBanner__itemSmallTag {
+    width: 97px !important;
+    height: 21px !important;
+    object-fit: contain !important;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .soft-topBanner__item-3 .soft-topBanner__itemSmallTag {
+    margin-right: 5px !important;
+    object-fit: contain !important;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .soft-topBanner__item-2 .soft-topBanner__itemSmallTag,
+  .soft-topBanner__item-1 .soft-topBanner__itemSmallTag {
+    margin-right: 5px !important;
+    object-fit: contain !important;
+  }
+}
+@media screen and (min-width: 980px), print {
+  .soft-topBanner__itemSmallSaleTag:before {
+    opacity: 0;
+    display: block;
+    content: "";
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    left: auto;
+    bottom: auto;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-sale-tri.svg");
+    background-repeat: no-repeat;
+    -webkit-transform: none;
+            transform: none;
+    position: absolute;
+    -webkit-transition: opacity 0.3s ease;
+    transition: opacity 0.3s ease;
+  }
+}
+.soft-main-smallBanner__item:hover .soft-topBanner__itemSmallSaleTag:before {
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+@media screen and (max-width: 979.98px) {
+  .sale__true::before {
+    display: block;
+    content: "";
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    top: 0;
+    right: 0;
+    width: 54px;
+    height: 54px;
+    left: auto;
+    bottom: auto;
+    background-size: contain;
+    background-image: url("../../../software/img/icon-sale-tri.svg");
+    -webkit-transform: none;
+            transform: none;
+    position: absolute;
+  }
+  .trial__true .soft-topBanner__itemStatusOnSale::after {
+    content: "体験版配信中";
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    white-space: nowrap;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+  html:not(.alps-os-android) .trial__true .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+  .preorder__true .soft-topBanner__itemStatusOnSale::after {
+    content: "予約受付中";
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    white-space: nowrap;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+  html:not(.alps-os-android) .preorder__true .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+  .trial__true.preorder__true .soft-topBanner__itemStatusOnSale::after {
+    content: "体験版配信中\A予約受付中";
+    font-family: "YakuHanJPs", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "nc3Jp", sans-serif !important;
+    display: block;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    line-height: 1.5;
+    white-space: pre;
+    -webkit-transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+            transform: translate3d(-50%, 0, 0) scale3d(0.75, 0.75, 1);
+    -webkit-transform-origin: center;
+            transform-origin: center;
+  }
+  html:not(.alps-os-android) .trial__true.preorder__true .soft-topBanner__itemStatusOnSale::after {
+    font-family: "YakuHanJPs", "Roboto", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", Arial, "nc3Jp", sans-serif !important;
+  }
+}
+@-webkit-keyframes soft_search__loadingInnerAnime {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes soft_search__loadingInnerAnime {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
